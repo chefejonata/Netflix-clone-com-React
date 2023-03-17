@@ -1,0 +1,55 @@
+.header {
+    width: 98vw;
+    height: 8rem;
+    position: absolute;
+    display: inline-flex;
+
+
+}
+
+.header__navegacao{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+
+
+}
+
+.header__logo{
+    width: 9rem;
+    height: 5rem;
+}
+
+.header__listaMenu{
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    font-weight: 300;
+    margin-left: 2rem;
+
+}
+
+.header__itensMenu{
+    cursor: pointer;
+
+}
+
+
+.header__icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 30rem;
+}
+
+.perfil{
+    width: 1.8rem;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

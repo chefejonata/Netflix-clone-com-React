@@ -1,0 +1,52 @@
+.conteudo{
+    height: 23rem;
+    width: 32rem;
+    display: flex;
+    flex-direction: column;  
+    padding: 2rem;
+    gap: 1rem;
+    position:relative;
+    padding-top: 10rem;
+}
+
+.conteudo__img{
+    width: 24rem;
+    height: 10rem;
+}
+
+.conteudo__text{
+    color: white;
+}
+
+.botoes{
+    width: 32rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.botao{
+    width: 22rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.botao2{
+    width: 13rem;
+    height: 3rem; 
+    background-color: rgba(187, 187, 187, 0.491);
+    border: 0;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+
+.botao2 h4{
+    color: white;
+}

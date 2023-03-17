@@ -1,0 +1,38 @@
+.filmes{
+    overflow: visible;
+    width: 90vw;
+    height: 15rem;
+    margin-top: 0.5rem;
+    gap: 1rem;
+    display: flex;
+    padding: 0 2rem;
+    
+}
+
+.titulo{
+    color: white;
+    margin-left: 2rem;
+}
+
+.post{
+    width: 10rem;
+    height: 11rem;
+    cursor: pointer;
+    background: green;
+    text-align: center;
+    margin: 0 2px;
+    transition: transform 300ms ease 100ms;
+}
+
+.filmes:hover .post {
+    transform: translateX(-25%);
+ }
+
+ .post:hover ~ .post {
+    transform: translateX(25%);
+ }
+
+ .post:hover {
+    transform: scale(1.5) !important;
+  }
+
