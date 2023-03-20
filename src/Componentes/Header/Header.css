@@ -3,6 +3,7 @@
     height: 8rem;
     position: absolute;
     display: inline-flex;
+    z-index: 1;
 
 
 }
