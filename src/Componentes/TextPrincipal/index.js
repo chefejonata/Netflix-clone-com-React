@@ -13,7 +13,7 @@ function TextPrincipal () {
             <img className='conteudo__img' src={logoPrincipal} alt='Logo The Midnight Gospel' />
             <h2 className='conteudo__text'>Um apresentador de espaçocast visita mundos malucos em seu simulador de universos e explora questões existenciais sobre a vida, a morte e muito mais.</h2>
                 <div className='botoes'>
-                    <Botao nome="Play" imagem={Play} />
+                    <Botao nome="Assistir" imagem={Play} />
                     <div className='botao2'>
                         <img src={plus} />
                         <h4>Meus favoritos</h4>

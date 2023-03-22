@@ -1,4 +1,4 @@
-import Carrocel from '../Carrocel'
+
 import TextPrincipal from '../TextPrincipal'
 import './BannerPrincipal.css'
 
@@ -10,7 +10,6 @@ function BannerPrincipal () {
         <div className='BannerShadon'>
             <div className='BannerImg'>
                 <TextPrincipal className='text' />
-                 <Carrocel />
             </div>
         </div>
 

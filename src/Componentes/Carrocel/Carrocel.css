@@ -1,38 +1,47 @@
-.filmes{
-    overflow: visible;
-    width: 90vw;
-    height: 15rem;
-    margin-top: 0.5rem;
-    gap: 1rem;
+.app{
+    width: 100vw;
+    max-width: 95%;
+    margin: 0 2rem;
+    min-height: 10vh;
     display: flex;
-    padding: 0 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+    display: flex;
+}
+
+.item{
+    min-width: 19rem;
+    min-height: 10rem;
+    padding: 0.5rem;
+    transition: transform 300ms ease 100ms;
     
 }
 
-.titulo{
-    color: white;
-    margin-left: 2rem;
+.item img{
+    width: 19rem;
+    height: 10rem;
+    border-radius: 0.1rem;
+    pointer-events: none;
 }
 
-.post{
-    width: 10rem;
-    height: 11rem;
-    cursor: pointer;
-    background: green;
-    text-align: center;
-    margin: 0 2px;
-    transition: transform 300ms ease 100ms;
+.carrocel{
+    cursor: grab;
+    overflow: hidden;
 }
 
-.filmes:hover .post {
-    transform: translateX(-25%);
+
+
+.app:hover .item {
+    transform: translateX(-5%);
  }
 
- .post:hover ~ .post {
-    transform: translateX(25%);
+ .item:hover ~ .item {
+    transform: translateX(5%);
  }
 
- .post:hover {
-    transform: scale(1.5) !important;
+ .item:hover {
+    transform: scale(1.1) !important;
   }
-
