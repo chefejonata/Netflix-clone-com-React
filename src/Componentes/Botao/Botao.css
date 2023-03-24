@@ -14,3 +14,34 @@
 .botao:hover{
     background-color: #E50914;
 }
+
+
+@media only screen and (max-width: 600px){
+    .botao{
+        width: 5rem;
+        height: 1rem; 
+        background-color: white;
+        border: 0;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.1rem;
+        font-size: 0.6rem;
+    }
+
+    .botao img {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .botao2  {
+        font-size: 0.5rem;
+        width: 6rem ;
+    }
+
+    .botao2 img {
+        width: 1rem;
+        height: 1rem;
+    }
+}

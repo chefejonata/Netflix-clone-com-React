@@ -12,3 +12,19 @@
     background-size: cover;
 }
 
+
+@media only screen and (max-width: 600px){
+    .BannerImg{
+        width: 100vw;
+        height: 15rem;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+    }
+
+    .BannerShadon{
+        width: 100vw;
+        height: 15rem;
+        background-image: url(../../assets/banner.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,21 @@
+const galeria = [
+    {urlImg:"./gatos/cat1.png"},
+    {urlImg:"./gatos/cat2.png"},
+    {urlImg:"./gatos/cat3.png"},
+    {urlImg:"./gatos/cat4.png"},
+    {urlImg:"./gatos/cat5.png"},
+    {urlImg:"./gatos/cat6.png"},
+    {urlImg:"./gatos/cat7.png"},
+    {urlImg:"./gatos/cat8.png"},
+    {urlImg:"./gatos/cat9.png"},
+    {urlImg:"./gatos/cat10.png"},
+    {urlImg:"./gatos/cat11.png"},
+    {urlImg:"./gatos/cat12.png"},
+    {urlImg:"./gatos/cat13.png"},
+    {urlImg:"./gatos/cat14.png"},
+    {urlImg:"./gatos/cat15.png"},
+    {urlImg:"./gatos/cat16.png"},
+    {urlImg:"./gatos/cat17.png"},
+    {urlImg:"./gatos/cat18.png"},
+]
+export default galeria

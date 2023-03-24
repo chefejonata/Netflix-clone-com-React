@@ -23,9 +23,7 @@ function Header () {
             </div>
             
             <div className='header__icones'>
-        
                     {itemMenu.map(img => <img key={img} className='perfil' src={img}/>)}
-
             </div>        
       
         </div>

@@ -1,0 +1,20 @@
+[
+    {
+        "imagem":"https://assets-prd.ignimgs.com/2022/08/17/1-monkey-d-luffy-1660778366362.jpeg"
+    },
+    {
+        "imagem":"../assets/filmes/image2.jpg"
+    },
+    {
+        "imagem":"../../assets/filmes/image3.jpg"
+    },
+    {
+        "imagem":"../../assets/filmes/image4.jpg"
+    },
+    {
+        "imagem":"../../assets/filmes/image5.jpg"
+    },
+    {
+        "imagem":"../../assets/filmes/image6.jpg"
+    }
+]
